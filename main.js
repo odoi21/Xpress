@@ -37,17 +37,6 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
-// Scroll suave para heroLink
-document.getElementById("heroLink").addEventListener("click", function (e) {
-    e.preventDefault();
-    const targetId = this.getElementById("#contacto"); // "#contacto"
-    const targetElement = document.querySelector(targetId);
-
-    window.scrollTo({
-        top: targetElement.offsetTop - 80, // mismo offset que en nav
-        behavior: "smooth"
-    });
-});
 
 
 
