@@ -1,4 +1,4 @@
-
+const Swal = require('sweetalert2')
 // Animación de scroll del header
 window.addEventListener('scroll', function () {
     const header = document.getElementById('header');
@@ -46,10 +46,3 @@ setInterval(() => {
     mainBtn.style.animation = 'pulse 3s ease infinite';
 }, 3000);
 
-// Validación básica del formulario
-const contactForm = document.querySelector('.contact-form form');
-contactForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    alert('¡Gracias por tu mensaje! Te contactaremos pronto.');
-    this.reset();
-});
