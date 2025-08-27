@@ -1,4 +1,3 @@
-const Swal = require('sweetalert2')
 // Animación de scroll del header
 window.addEventListener('scroll', function () {
     const header = document.getElementById('header');
