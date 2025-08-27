@@ -513,10 +513,8 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .wsp-logo img{
-        width: 50px;
-        
-        
+    .wsp-logo {
+        display: none;
     }
 
 }
