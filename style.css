@@ -169,7 +169,7 @@ nav a:hover::after {
 .hero {
     height: 100dvh;
     display: flex;
-    background: linear-gradient(var(--dark-color) 100%);
+    background: var(--dark-color);
     align-items: center;
     justify-content: center;
     color: white;
