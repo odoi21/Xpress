@@ -168,8 +168,8 @@ nav a:hover::after {
 /* Hero Section */
 .hero {
     height: 100dvh;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-color) 100%);
     display: flex;
+    background: linear-gradient(var(--dark-color) 100%);
     align-items: center;
     justify-content: center;
     color: white;
@@ -187,7 +187,6 @@ nav a:hover::after {
     bottom: 0;
     background: url(assets/images/bakcground.png) center/cover no-repeat;
     opacity: 0.2;
-    animation: fadeIn 2s ease;
 }
 
 .hero-content {
@@ -313,6 +312,11 @@ nav a:hover::after {
     transition: var(--transition);
 }
 
+.icon-service {
+    width: 40px;
+    height: 40px;
+}
+
 .service-card:hover .service-icon {
     transform: rotate(360deg);
     background: var(--secondary-color);
@@ -433,6 +437,11 @@ nav a:hover::after {
     justify-content: center;
     margin-right: 1rem;
     color: white;
+}
+
+.icons-contact {
+    width: 20px;
+    height: 20px;
 }
 
 .contact-form {
