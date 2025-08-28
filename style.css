@@ -564,6 +564,9 @@ footer {
         display: none;
     }
 
+    .hero::before {
+        background: url(assets/images/bakcground.png) center/cover no-repeat;
+    }
 }
 
 /* Utilidades de animación */
