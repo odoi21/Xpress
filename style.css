@@ -101,7 +101,7 @@ body {
 
 /* Header y Navegación */
 header {
-    background: rgba(40, 57, 73, 0.95);
+    background: rgba(40, 57, 73, 0);
     position: fixed;
     width: 100%;
     z-index: 1000;
