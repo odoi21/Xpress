@@ -36,6 +36,15 @@ document.querySelectorAll('nav a').forEach(anchor => {
     });
 });
 
+// Galería: permitir tap en móviles para activar overlay
+document.querySelectorAll('.gallery-item').forEach(item => {
+    item.addEventListener('click', () => {
+        // Si querés que se pueda activar/desactivar individualmente:
+        item.classList.toggle('active');
+    });
+});
+
+
 
 
 
