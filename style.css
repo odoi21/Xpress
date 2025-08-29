@@ -107,11 +107,13 @@ header {
     z-index: 1000;
     padding: 1rem 0;
     transition: var(--transition);
+    top: -80px;
 }
 
 header.scrolled {
     background: var(--primary-color);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    top: 0;
 }
 
 .nav-container {
