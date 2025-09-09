@@ -201,8 +201,8 @@ nav a:hover::after {
 
 
 
-.hero h1 {
-    /*white-space: nowrap;*/ /* Evita que el texto se divida en varias líneas */
+/* .hero h1 {
+    /*white-space: nowrap;*/ /* Evita que el texto se divida en varias líneas 
     font-size: 3.5rem;
     margin-bottom: 1rem;
     animation: slideInLeft 1s ease 1s both;
@@ -213,7 +213,7 @@ nav a:hover::after {
     width: 100%;
     margin-bottom: 1rem;
     animation: slideInRight 1s ease 1.2s both;
-}
+} */
 
 .btn {
     border: none;
@@ -550,12 +550,16 @@ footer {
         gap: 1rem;
     }
 
-    .hero h1 {
+    /*.hero h1 {
         font-size: 2.5rem;
-    }
+    }*/
 
     .hero-content {
-        margin-top: 40px;
+    max-width: 800px;
+    padding: 2rem;
+    z-index: 2;
+    animation: fadeIn 1.5s ease 0.5s both;
+    margin-top: 20px;
     }
 
     .contact-container {
