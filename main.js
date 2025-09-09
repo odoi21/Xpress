@@ -14,7 +14,7 @@ window.addEventListener('scroll', function () {
 // Animación de scroll del header
 window.addEventListener('scroll', function () {
     const header = document.getElementById('header');
-    if (window.scrollY > 100) {
+    if (window.scrollY > 90) {
         header.classList.add('scrolled');
     } else {
         header.classList.remove('scrolled');

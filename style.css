@@ -101,7 +101,7 @@ body {
 
 /* Header y Navegación */
 header {
-    background: rgba(40, 57, 73, 0);
+    background: rgba(85, 127, 167, 0);
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -171,10 +171,9 @@ nav a:hover::after {
 .hero {
     height: 100dvh;
     display: flex;
-    background: var(--dark-color);
+    background-color: #2f4255;
     align-items: center;
     justify-content: center;
-    color: white;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -187,26 +186,32 @@ nav a:hover::after {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(assets/images/hero\ banner.jpg) center/cover no-repeat;
+    background: url(assets/images/hero_banner3.jpg) center/cover no-repeat;
     opacity: 0.2;
 }
 
 .hero-content {
+    position: relative; /* para posicionar el boton abajo del logo del banner */
+    top: 20rem;
     max-width: 800px;
     padding: 2rem;
     z-index: 2;
     animation: fadeIn 1.5s ease 0.5s both;
 }
 
+
+
 .hero h1 {
+    /*white-space: nowrap;*/ /* Evita que el texto se divida en varias líneas */
     font-size: 3.5rem;
     margin-bottom: 1rem;
     animation: slideInLeft 1s ease 1s both;
 }
 
 .hero p {
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
     animation: slideInRight 1s ease 1.2s both;
 }
 
@@ -229,7 +234,7 @@ nav a:hover::after {
     box-shadow: 0 10px 25px rgba(231, 76, 60, 0.3);
 }
 
-.hero-link {
+.heroLink {
     scroll-behavior: smooth;
 }
 
