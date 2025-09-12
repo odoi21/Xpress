@@ -107,7 +107,7 @@ header {
     z-index: 1000;
     padding: 1rem 0;
     transition: var(--transition);
-    top: -80px;
+    top: -1000px;
 }
 
 header.scrolled {
@@ -550,16 +550,15 @@ footer {
         gap: 1rem;
     }
 
-    /*.hero h1 {
-        font-size: 2.5rem;
-    }*/
+
 
     .hero-content {
     max-width: 800px;
     padding: 2rem;
     z-index: 2;
     animation: fadeIn 1.5s ease 0.5s both;
-    margin-top: 20px;
+    position: relative; /* para posicionar el boton abajo del logo del banner */
+    top: 15rem;
     }
 
     .contact-container {
